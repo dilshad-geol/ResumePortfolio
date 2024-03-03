@@ -784,3 +784,58 @@ p {
   font-size: 0.95rem;
   color: #555;
 }
+
+
+.field-works__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field-work__item {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.field-work__title, .field-work__subtitle {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.field-work__date, .field-work__location {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.field-work__details {
+  list-style: inside square;
+  padding-left: 20px;
+}
+
+.conferences__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.conference__item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.conference__title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.conference__date, .conference__location {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 5px;
+}
