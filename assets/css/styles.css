@@ -485,6 +485,10 @@ img {
   }
 }
 
+.about__text {
+  text-align: justify;
+}
+
 
 .contact__container {
   display: flex;
